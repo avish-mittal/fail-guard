@@ -1,0 +1,53 @@
+{
+  "name": "fail-guard",
+  "version": "1.0.0",
+  "description": "Zero-dependency crash protection for beginner developers. Prevents sudden app and bot crashes while replacing 60-line red stack traces with beautiful, actionable terminal error cards.",
+  "main": "./src/index.js",
+  "module": "./src/index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.mjs",
+      "require": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/test.js",
+    "example": "node example.js"
+  },
+  "keywords": [
+    "fail-guard",
+    "error-handler",
+    "uncaughtException",
+    "unhandledRejection",
+    "keep-alive",
+    "beginner-friendly",
+    "terminal-card",
+    "zero-dependency",
+    "discord-bot",
+    "developer-experience",
+    "dx",
+    "crash-guard"
+  ],
+  "author": "Avish Mittal",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avish-mittal/fail-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avish-mittal/fail-guard/issues"
+  },
+  "homepage": "https://github.com/avish-mittal/fail-guard#readme"
+}
